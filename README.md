@@ -1,22 +1,11 @@
 # FMO Quantum Surrogate — Revolutionary 7-site ML Project
 
-> **State-of-the-art scientific ML**: LSTM + PINN surrogates, Bayesian inverse flows,
+> **Scientific ML**: LSTM + PINN surrogates, Bayesian inverse flows,
 > bootstrap uncertainty quantification, and non-Markovian HEOM dynamics for the
 > canonical 7-site FMO photosynthetic complex.
 
 ---
 
-## What makes this revolutionary
-
-| Feature | This project | Typical 2024 papers |
-|---------|-------------|---------------------|
-| FMO model | **7-site** (experimental reality) | 3-site (toy) |
-| Uncertainty | **Bootstrap ensemble + MC dropout** | None |
-| Inverse problem | **Normalising flow posterior P(θ\|ρ(t))** | None |
-| Non-Markovian | **HEOM (exact memory)** vs Lindblad | Markov only |
-| Physics constraints | Trace + positivity + Hermiticity | Trace only |
-
----
 
 ## Scientific background
 
