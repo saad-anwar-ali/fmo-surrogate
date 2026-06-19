@@ -1,4 +1,4 @@
-# FMO Quantum Surrogate — Revolutionary 7-site ML Project
+# FMO Quantum Surrogate — 7-site ML Project
 
 > **Scientific ML**: LSTM + PINN surrogates, Bayesian inverse flows,
 > bootstrap uncertainty quantification, and non-Markovian HEOM dynamics for the
