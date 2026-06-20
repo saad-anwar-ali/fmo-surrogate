@@ -1,0 +1,63 @@
+{
+  "accuracy": {
+    "lstm": {
+      "mse": 0.0002824325094800716,
+      "mae": 0.010197078932405394,
+      "r2_coherence": 0.9993865872855495,
+      "r2_efficiency": 0.2285402381256687,
+      "n_test": 68
+    },
+    "pinn": {
+      "mse": 4.121806186423568e-05,
+      "mae": 0.004046430140185882,
+      "r2_coherence": 0.9993912406726135,
+      "r2_efficiency": -1.1022562237968638,
+      "n_test": 68
+    }
+  },
+  "speed": {
+    "qutip_s": 0.02381797199996072,
+    "lstm_s": 0.8119213332502113,
+    "pinn_s": 0.04256920699845068,
+    "speedup_lstm": 0.029335319845107073,
+    "speedup_pinn": 0.5595117616550287
+  },
+  "constraints": {
+    "error": "only 0-dimensional arrays can be converted to Python scalars"
+  },
+  "coherence": {
+    "lstm": {
+      "r2_gamma2": -0.5239689549005029,
+      "gt_slope_per_K": -0.0001893654839236572,
+      "pred_slope_per_K": 0.00010521636831767892,
+      "slope_recovery_pct": -55.562590466643314
+    },
+    "pinn": {
+      "r2_gamma2": 0.2844924279039388,
+      "gt_slope_per_K": -0.0001893654839236572,
+      "pred_slope_per_K": 6.183820425873345e-05,
+      "slope_recovery_pct": -32.655478167110715
+    }
+  },
+  "non_markovian": {
+    "per_temperature": {
+      "77.0": {
+        "mean_l2_divergence": 0.003013122361153364,
+        "max_l2_divergence": 0.007893017493188381,
+        "peak_time_fs": 300.0
+      },
+      "200.0": {
+        "mean_l2_divergence": 0.0029206920880824327,
+        "max_l2_divergence": 0.0061138710007071495,
+        "peak_time_fs": 300.0
+      },
+      "300.0": {
+        "mean_l2_divergence": 0.0028955484740436077,
+        "max_l2_divergence": 0.0054045915603637695,
+        "peak_time_fs": 300.0
+      }
+    },
+    "status": "ok",
+    "note": "L2 distance between Lindblad and HEOM density matrices. Larger at low T where memory effects dominate."
+  }
+}

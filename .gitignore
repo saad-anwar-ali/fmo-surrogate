@@ -1,0 +1,43 @@
+# Data files (large, not tracked)
+data/
+*.h5
+*.hdf5
+
+# Model checkpoints (can be large)
+results/checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (keep CSV logs but not very large ones)
+# results/logs/
+
+# Figures are kept (small, useful for README)
+# results/figures/

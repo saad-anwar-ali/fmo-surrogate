@@ -1,0 +1,11 @@
+qutip==4.7.6
+torch==2.2.2
+numpy==1.26.4
+scipy==1.13.0
+h5py==3.11.0
+matplotlib==3.8.4
+tqdm==4.66.4
+scikit-learn==1.4.2
+jupytext==1.16.2
+PyYAML==6.0.1
+nflows==0.14
